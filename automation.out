@@ -1,0 +1,55 @@
+2023-04-16 23:04:322 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:369 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:81 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:683 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:964 INFO  WaitUtil:32 - waiting for element invisibility..
+2023-04-16 23:04:94 INFO  WaitUtil:36 - element is invisible..
+2023-04-16 23:04:22 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:93 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:125 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:201 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:304 INFO  WaitUtil:32 - waiting for element invisibility..
+2023-04-16 23:04:838 INFO  WaitUtil:36 - element is invisible..
+2023-04-16 23:04:347 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:402 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:402 INFO  WaitUtil:32 - waiting for element invisibility..
+2023-04-16 23:04:463 INFO  WaitUtil:36 - element is invisible..
+2023-04-16 23:04:464 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:486 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:533 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:97 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:98 INFO  WaitUtil:32 - waiting for element invisibility..
+2023-04-16 23:04:644 INFO  WaitUtil:36 - element is invisible..
+2023-04-16 23:04:686 INFO  WaitUtil:32 - waiting for element invisibility..
+2023-04-16 23:04:705 INFO  WaitUtil:36 - element is invisible..
+2023-04-16 23:04:434 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:482 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:483 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:65 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:109 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:148 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:141 INFO  WaitUtil:32 - waiting for element invisibility..
+2023-04-16 23:04:170 INFO  WaitUtil:36 - element is invisible..
+2023-04-16 23:04:474 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:522 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:448 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:07 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:270 INFO  WaitUtil:32 - waiting for element invisibility..
+2023-04-16 23:04:394 INFO  WaitUtil:36 - element is invisible..
+2023-04-16 23:04:205 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:264 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:268 INFO  WaitUtil:32 - waiting for element invisibility..
+2023-04-16 23:04:932 INFO  WaitUtil:36 - element is invisible..
+2023-04-16 23:04:260 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:795 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:496 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:147 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:199 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:767 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:768 INFO  WaitUtil:32 - waiting for element invisibility..
+2023-04-16 23:04:378 INFO  WaitUtil:36 - element is invisible..
+2023-04-16 23:04:399 INFO  WaitUtil:24 - waiting for element visibilityOf..
+2023-04-16 23:04:417 INFO  WaitUtil:28 - element is visible..
+2023-04-16 23:04:417 INFO  WaitUtil:32 - waiting for element invisibility..
+2023-04-16 23:04:434 INFO  WaitUtil:36 - element is invisible..
+2023-04-16 23:04:454 INFO  ServiceHooks:34 - The user adds and updates the items in the cart with different sizes and colors is Failed

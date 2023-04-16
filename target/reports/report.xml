@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="45.334" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Verify cart functionality for Magento website with multiple items and discounts" name="The user adds and updates the items in the cart with different sizes and colors" time="45.195">
+<failure type="java.lang.AssertionError" message="Expected Total is: $116.00 Actual total is: $140.00">
+<![CDATA[java.lang.AssertionError: Expected Total is: $116.00 Actual total is: $140.00
+	at CucumberJavaGlobal.StepDefinitions.AddToCartStepDefinitions.verifyCartTotal(AddToCartStepDefinitions.java:42)
+	at ✽.the cart total is "$116.00"(file:///C:/Users/pramo/OneDrive/Desktop/Selenium/SeleniumCucumber/CucumberJavaGlobal/src/test/resources/CucumberJavaGlobal/CucumberJavaGlobal/Features/Add_To_Cart.feature:14)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the user is on the magento homepage...................................passed
+When the user adds "4" - "Gwyn Endurance Tee" with "Medium" size and "Green" color to the cart.passed
+And the user selects "United Kingdom" as the delivery address...............passed
+Then the cart total is "$92.00".............................................passed
+And the discount is applied.................................................passed
+When the user updates the quantity of "Gwyn Endurance Tee" to "3"...........passed
+And the user adds "1" - "Gwyn Endurance Tee" with "Small" size and "Yellow" color to the cart.passed
+And the user adds "1" - "Quest Lumaflex™ Band" to the cart..................passed
+And the user navigates to checkout page.....................................passed
+Then the cart total is "$116.00"............................................failed
+]]></system-out>
+</testcase>
+</testsuite>

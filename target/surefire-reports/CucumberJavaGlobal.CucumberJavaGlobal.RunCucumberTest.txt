@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: CucumberJavaGlobal.CucumberJavaGlobal.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 45.857 s <<< FAILURE! - in CucumberJavaGlobal.CucumberJavaGlobal.RunCucumberTest
+Verify cart functionality for Magento website with multiple items and discounts.The user adds and updates the items in the cart with different sizes and colors  Time elapsed: 45.265 s  <<< FAILURE!
+java.lang.AssertionError: Expected Total is: $116.00 Actual total is: $140.00
+	at CucumberJavaGlobal.StepDefinitions.AddToCartStepDefinitions.verifyCartTotal(AddToCartStepDefinitions.java:42)
+	at ✽.the cart total is "$116.00"(file:///C:/Users/pramo/OneDrive/Desktop/Selenium/SeleniumCucumber/CucumberJavaGlobal/src/test/resources/CucumberJavaGlobal/CucumberJavaGlobal/Features/Add_To_Cart.feature:14)
+

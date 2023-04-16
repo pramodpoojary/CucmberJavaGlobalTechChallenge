@@ -1,0 +1,8 @@
+CucumberJavaGlobal\Utils\LoggerUtil.class
+CucumberJavaGlobal\StepDefinitions\AddToCartStepDefinitions.class
+CucumberJavaGlobal\StepDefinitions\ServiceHooks.class
+CucumberJavaGlobal\Utils\PropertyReaderUtil.class
+CucumberJavaGlobal\Utils\BrowserInitialization.class
+CucumberJavaGlobal\Utils\WaitUtil.class
+CucumberJavaGlobal\Pages\AddToCartPage.class
+CucumberJavaGlobal\CucumberJavaGlobal\RunCucumberTest.class
