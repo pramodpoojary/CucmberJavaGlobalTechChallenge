@@ -1,6 +1,5 @@
 #  Cucmber BDD Framework Magento
-This repository contains the solution for a web automation technical challenge. The solution has been implemented using Cucumber BDD framework with JUnit as a unit testing framework and Java language, all with the latest versions. Maven has been used as a build management tool. Page Object Model (POM) using Page Factory has been used as a design pattern.
-## Prerequisites
+This repository contains the solution for a web automation technical challenge. The solution has been implemented using Cucumber BDD framework with JUnit as a unit testing framework and Java language, all with the latest versions. Maven has been used as a build management tool. Page Object Model (POM) using Page Factory has been used as a design pattern.Cucumber was an ideal choice as it provided a clear and concise way to document the steps and expected outcomes for each scenario in plain English. Additionally, Cucumber also provides a built-in mechanism for generating automated tests based on the scenarios and steps outlined in the feature files. This allowed me to create automated tests quickly and efficiently, without having to write additional code.
 The following software is required to be installed on your system before running the tests:<br>
 •	Java <br>
 •	Maven <br>
@@ -19,6 +18,6 @@ Running configurations and reporting are handled in the RunCucumberTest.java fil
 This solution provides a scalable and maintainable approach to automate web applications using Cucumber BDD framework with POM design pattern and JUnit as a unit testing framework. Please feel free to explore the code and provide your valuable feedback.
 
 ## Test specific Observations/Discoveries 
-•	Check cart total is $116.00 is failing as actual result coming out to be $145<br>
-•	Had to input address and email while checking out the product for now i have hardcoded the data due to time constraint , we can manage this data in feature file or seprate file and read it at run time.<br>
-• And the tests got bit complex due to incomplete navigations in the magento website (for eg: unable to navigate back to cart from checkout page)
+•	The test step "Check cart total is $116.00" is failing as actual result coming out to be $145<br>
+•	Had to input address and email while checking out the product, for time being i have hardcoded the data , we can manage this data in feature file or seprate file and read it at run time.<br>
+•  due to incomplete navigations in the magento website (for eg: unable to navigate back to cart from checkout page) i had to find a workaround to update the product quantity by navigating to homepage from checkout.
