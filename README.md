@@ -19,6 +19,6 @@ Running configurations and reporting are handled in the RunCucumberTest.java fil
 This solution provides a scalable and maintainable approach to automate web applications using Cucumber BDD framework with POM design pattern and JUnit as a unit testing framework. Please feel free to explore the code and provide your valuable feedback.
 
 ## Test specific Observations/Discoveries 
-•	Check cart total is $116.00 is failing as actual result coming out to be $140<br>
+•	Check cart total is $116.00 is failing as actual result coming out to be $145<br>
 •	Had to input address and email while checking out the product for now i have hardcoded the data due to time constraint , we can manage this data in feature file or seprate file and read it at run time.<br>
 • And the tests got bit complex due to incomplete navigations in the magento website (for eg: unable to navigate back to cart from checkout page)
