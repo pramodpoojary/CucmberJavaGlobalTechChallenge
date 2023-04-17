@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="45.334" tests="1" skipped="0" failures="1" errors="0">
-<testcase classname="Verify cart functionality for Magento website with multiple items and discounts" name="The user adds and updates the items in the cart with different sizes and colors" time="45.195">
-<failure type="java.lang.AssertionError" message="Expected Total is: $116.00 Actual total is: $140.00">
-<![CDATA[java.lang.AssertionError: Expected Total is: $116.00 Actual total is: $140.00
-	at CucumberJavaGlobal.StepDefinitions.AddToCartStepDefinitions.verifyCartTotal(AddToCartStepDefinitions.java:42)
+<testsuite name="Cucumber" time="54.068" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Verify cart functionality for Magento website with multiple items and discounts" name="The user adds and updates the items in the cart with different sizes and colors" time="53.922">
+<failure type="java.lang.AssertionError" message="Expected Total is: $116.00 Actual total is: $145.00">
+<![CDATA[java.lang.AssertionError: Expected Total is: $116.00 Actual total is: $145.00
+	at CucumberJavaGlobal.StepDefinitions.AddToCartStepDefinitions.verifyCartTotal(AddToCartStepDefinitions.java:43)
 	at ✽.the cart total is "$116.00"(file:///C:/Users/pramo/OneDrive/Desktop/Selenium/SeleniumCucumber/CucumberJavaGlobal/src/test/resources/CucumberJavaGlobal/CucumberJavaGlobal/Features/Add_To_Cart.feature:14)
 ]]>
 </failure>

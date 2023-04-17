@@ -11,4 +11,4 @@ Feature: Verify cart functionality for Magento website with multiple items and d
     And the user adds "1" - "Gwyn Endurance Tee" with "Small" size and "Yellow" color to the cart
     And the user adds "1" - "Quest Lumaflex™ Band" to the cart
     And the user navigates to checkout page
-    Then the cart total is "$116.00"
+    Then the cart total is "$116.00" 

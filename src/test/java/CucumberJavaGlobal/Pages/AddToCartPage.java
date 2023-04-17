@@ -28,7 +28,7 @@ public class AddToCartPage {
 	By quantityInput = By.xpath("//input[@id='qty']");
 	By addToCartButton = By.xpath("//button[@id='product-addtocart-button']");
 	By miniCartButton = By.xpath("//div[@data-block='minicart']/a");
-	By cartButtonBy = By.xpath("//div/a[text()='shopping cart']");
+	By cartButton = By.xpath("//div/a[text()='shopping cart']");
 	By proceedToCheckoutButton = By.xpath("//li//button[@title='Proceed to Checkout']");
 	By emailInput = By.xpath("//div[@class='field required']//input[@type='email']");
 	By orderTotal = By.xpath("//strong[contains(text(),'Order Total')]");
@@ -46,6 +46,7 @@ public class AddToCartPage {
 	By cartCount = By.xpath("//span[@class='counter-number']");
 	By updateCartButtonBy = By.xpath("//button[@id='product-updatecart-button']");
 
+	// initalizing webelements
 	public AddToCartPage(WebDriver webDriver) {
 //        PageFactory.initElements(new AjaxElementLocatorFactory(webDriver, 15), this);
 		this.driver = webDriver;
@@ -100,7 +101,8 @@ public class AddToCartPage {
 	}
 
 	public void clickOnCart() {
-		driver.findElement(cartButtonBy).click();
+		wait.WaitForElement(cartButton);
+		driver.findElement(cartButton).click();
 	}
 
 	public void clickOnCheckout() {
@@ -113,6 +115,7 @@ public class AddToCartPage {
 		Select select = new Select(driver.findElement(countryDropDown));
 		select.selectByVisibleText(address);
 		wait.WaitForElementInvisibility(loader);
+		// data is hardcoded this can be driven from external file or feature file
 		driver.findElement(emailInput).sendKeys("pramoda@pramoda.com");
 		driver.findElement(firstNameInput).sendKeys("Pramoda");
 		driver.findElement(lastNameInput).sendKeys("Poojary");

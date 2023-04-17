@@ -9,6 +9,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class AddToCartStepDefinitions {
+	//Getting the driver reference from hooks class
 	public static WebDriver driver = ServiceHooks.driver;
 	private AddToCartPage addToCartPage = new AddToCartPage(driver);
 	private static final String PAGE_TITLE_STRING = "Home Page";
